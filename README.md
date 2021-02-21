@@ -39,3 +39,9 @@ add:
 display_rotate=1
 
 to vertically align
+
+Install pm2 to startup on start:
+
+npm install pm2 -g
+pm2 start mmstart.sh
+pm2 save
